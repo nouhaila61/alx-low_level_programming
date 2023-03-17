@@ -5,9 +5,7 @@
 
 /* betty style doc for function main goes there */
 /**
- * main  if number is positive, negative or zero
- *
- * Return: 0
+ * main if number is positive, negative or zero
 */
 int main(void)
 {
