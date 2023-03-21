@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * jack_bauer -  prints every minute of the day of Jack Bauer, starting from HH:HH to MM:MM
+ * jack_bauer -  prints every minute of the day starting from HH:HH to MM:MM
  * Return: the result of two numbers.
  */
 
@@ -22,3 +22,4 @@ void jack_bauer(void)
 		}
 	}
 }
+
