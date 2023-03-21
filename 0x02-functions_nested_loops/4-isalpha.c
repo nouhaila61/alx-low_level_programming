@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower -  display 1 if the alphabet, in lowercase or uppercase
+ * _isalpha -  display 1 if the alphabet, in lowercase or uppercase
  * @c: parameter
  * Return: 1 if c is lowercase or uppercase else 0
  *
@@ -9,7 +9,7 @@
 int _isalpha(int c)
 {
 
-	if ((c >= 97 && c <= 122) || (c >= 66 && c <90))
+	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
 	{
 		return (1);
 	}
@@ -17,3 +17,4 @@ int _isalpha(int c)
 	return (0);
 _putchar('\n');
 }
+
