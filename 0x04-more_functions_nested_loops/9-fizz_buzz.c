@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
-  * main - Prints Fizz Buzz from 1 to 100
-  *
+  * main - entery point
+  *Desription: FIZZBUZZ who doesn't know it
   * Return: Always 0
   */
 int main(void)
