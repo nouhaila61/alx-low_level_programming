@@ -7,16 +7,9 @@
  *Return: 1 if c is a digit 0 otherwise
  */
 int _isdigit(int c)
-	{
-
-	c = c % 10;
-
-	if (c < 0)
-		c = -1 * c;
-
-	_putchar('0' + c);
-
-	return (1);
+{
+	if (c >= 48 && c <= 57)
+		return (1);
 	return (0);
 }
 
