@@ -9,13 +9,13 @@ void print_rev(char *str)
 {
 	int len = 0;
 
-	while (s[len])
+	while (str[len])
 	{
 		len++;
 	}
 
 	for (int i = len - 1; i >= 0; i--)
-	_putchar(s[i]);
+	_putchar(str[i]);
 
 	_putchar('\n');
 }
