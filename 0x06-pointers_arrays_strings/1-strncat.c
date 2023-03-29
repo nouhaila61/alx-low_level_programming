@@ -4,10 +4,11 @@
  * _strcat - Concatenates two strings
  * @dest: first string
  * @src: second string
+ *
  * Return: return dest
  */
 
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
 	int a;
 	int b;
@@ -18,7 +19,8 @@ char *_strcat(char *dest, char *src)
 	while (dest[a])
 		a++;
 
-	while (src[b])
+	dest[a] = ' ';
+	while (src[b] && j < n)
 	{
 		dest[a] = src[b];
 		a++;
