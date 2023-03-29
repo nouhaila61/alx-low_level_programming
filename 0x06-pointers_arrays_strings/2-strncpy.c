@@ -2,8 +2,8 @@
 
 /**
  * _strncpy - copies n bytes from src to dest
- * @dest: dest string
- * @src: src string
+ * @dest: destination string
+ * @src: source string
  * @n: number of bytes
  * Return: dest
  */
