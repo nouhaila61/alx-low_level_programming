@@ -2,9 +2,9 @@
 
 /**
  * _strncpy - copies n bytes from src to dest
- * @dest: the destination string
- * @src: the source string
- * @n: the number of bytes
+ * @dest: dest string
+ * @src: src string
+ * @n: number of bytes
  * Return: dest
  */
 
