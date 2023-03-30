@@ -1,16 +1,15 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * leet - encodes a string into 1337
  * @str: string
- * Return: the pointer to dest
+ * Return: str
  **/
 
 char *leet(char *str)
 {
-	int i, j = 0;
-	char leet[] = {4, 3, 0, 7, 1};
+	int i = 0, j = 0;
 	char letters[] = "aAeEoOtTlL";
+	char leet[] = "4433007711";
 
 	while (str[i])
 	{
@@ -23,6 +22,7 @@ char *leet(char *str)
 			}
 			j++;
 		}
+		j = 0;
 		i++;
 	}
 	return (str);
