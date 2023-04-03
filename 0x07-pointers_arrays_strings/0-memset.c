@@ -3,8 +3,8 @@
 /**
  * _memset - fills memory with a constant byte
  * @s: buffer in the memory
- * @b: constant byte
- * @n: bytes of the memory area 
+ * @b: character to fill the n bytes of memory
+ * @n: the len of memory to be filled using _memset
  * Return: (s).
  */
 
