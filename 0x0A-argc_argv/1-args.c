@@ -1,13 +1,16 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - prints its name, followed by a new line.
+ * main - prints the number of arguments passed into it, followed by a new line.
  * @argc: count the number of argruments.
  * @argv: Pinter to the string of arguments.
  * Return: 0.
 */
 
-int main(int argc, char *argv[])
+int main(int  argc, __attribute__((unused)) char *argv[])
 {
-	
+
+	printf("%d\n", argc - 1);
+
+	return (0);	
 }
 
