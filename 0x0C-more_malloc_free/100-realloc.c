@@ -1,14 +1,13 @@
 #include "main.h"
 
 /**
- * __memcpy - copies memory area.
- * @dest: memory area to copy to.
- * @src: memory area to copy from.
- * @n: bytes of memory.
- * Return: a pointer to dest.
- */
+* _realloc - reallocates a memory block using malloc and free
+* @ptr: pointer to the memory previously allocated with malloc
+* @old_size: size of the allocated space for ptr
+* @new_size: size of the new memory block to be allocated
+* Return: pointer to the new memory block, or NULL if allocation fails
+*/
 
-char *__memcpy(char *dest, char *src, unsigned int n)
 {
 	char *ptr1;
 	char *old_ptr;
