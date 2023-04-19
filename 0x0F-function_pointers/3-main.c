@@ -2,8 +2,8 @@
 
 /**
  * main - program that perfroms simple operations
- * @ac: number of arguments
- * @av: array of arguments
+ * @argc: number of arguments
+ * @argv: array of arguments
  *
  * Return: Always 0 (Success)
  */
@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 
 	oprt = get_op_func(argv[2]);
 
-	if (oprt == NULL || argv[2][1] != '\0')
+	if (!oprt)
 	{
 		printf("Error\n");
 		exit(99);
