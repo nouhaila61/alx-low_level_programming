@@ -56,7 +56,7 @@ int op_div(int a, int b)
  * op_mod - computes a % b
  * @a: the 1st integer
  * @b: the second integer
- * Return: the result of a / b
+ * Return: the result of a % b
  */
 
 int op_mod(int a, int b)
