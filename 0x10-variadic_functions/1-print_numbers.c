@@ -2,8 +2,8 @@
 
 /**
  * print_numbers - prints numbers, followed by a new line
- * @seperator : seperator of the string
- * @n : parameters
+ * @separator: seperator of the string
+ * @n: parameters
  */
 
 void print_numbers(const char *separator, const unsigned int n, ...)
