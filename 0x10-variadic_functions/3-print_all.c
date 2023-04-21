@@ -22,9 +22,9 @@ void print_all(const char * const format, ...)
 			printf("%d", va_arg(arg, int));
 			break;
 			case 'f':
-			printf("%f", va_arg(args, double));
+			printf("%f", va_arg(arg, double));
 			case 's':
-				str = va_arg(args, char *);
+				str = va_arg(arg, char *);
 				if (!str)
 				{
 					printf("(nil)");
