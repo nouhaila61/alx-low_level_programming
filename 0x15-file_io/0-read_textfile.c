@@ -1,12 +1,10 @@
 #include "main.h"
-
-
 /**
- * read_textfile - Reads a text file and prints its content to the standard output.
+ * read_textfile - Reads a text file and prints its content to the stdout
  * @filename: Name of the file to read.
  * @letters: Number of letters (bytes) to read from the file.
  *
- * Return: Number of bytes read and written on success, 0 on failure.
+ * Return: Number of bytes read and written on success, zero on failure.
  */
 
 ssize_t read_textfile(const char *filename, size_t letters)
